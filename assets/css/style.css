@@ -62,7 +62,7 @@ body {
 
 .title {
   font-family: 'Playfair Display SC', serif;
-  font-size: 6rem;
+  font-size: 3rem;
   line-height: 1;
   font-weight: 400;
   margin-bottom: 1rem;
@@ -224,6 +224,7 @@ body {
   }
 }
 
+/* Click em imagem e descrição */
 .js-tabcontent section {
   display: none;
 }
@@ -243,4 +244,58 @@ body {
     transform: translate3d(0, 0, 0);
   }
 }
+/* Click em imagem e descrição */
+
+/* Click em FAQ */
+.js-accordion dt::after {
+  content: '⮟';
+  margin-left: 10px;
+}
+
+.js-accordion dt.active::after {
+  content: '⮞';
+}
+
+.js-accordion dd {
+  display: none;
+}
+
+.js-accordion dd.active {
+  display: block;
+  animation: slideDown .5s forwards;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 200px;
+  }
+}
+
+.js-scroll {
+  opacity: 0;
+  transform: translate3d(-30px, 0, 0);
+  transition: .3s;
+}
+
+.js-scroll.active {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
