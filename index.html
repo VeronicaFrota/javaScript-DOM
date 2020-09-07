@@ -10,138 +10,154 @@
 </head>
 
 <body>
-  <nav class="menu js-menu">
-    <ul>
-      <li><a href="#animals">Animais</a></li>
-      <li><a href="#faq">FAQ</a></li>
-      <li><a href="#contact">Contato</a></li>
-      <li><a href="#">Dev → </a></li>
-    </ul>
-  </nav>
+  <div class="grid-container">
+    <nav class="menu js-menu">
+      <ul>
+        <li><a href="#animals">Animais</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><a data-modal="abrir" href="login.html">Login → </a></li>
+      </ul>
+    </nav>
 
-  <section class="grid-section animals js-scroll" id="animals">
-    <h1 class="title">Animais Fantásticos</h1>
-    <ul class="animals-list js-tabmenu">
-      <li>
-        <img src="./assets/img/Wolf.jpg" alt="Wolf">
-      </li>
-      <li>
-        <img src="./assets/img/bear.jpg" alt="bear">
-      </li>
-      <li>
-        <img src="./assets/img/squirrel.jpg" alt="squirrel">
-      </li>
-      <li>
-        <img src="./assets/img/fox.jpg" alt="fox">
-      </li>
-      <li>
-        <img src="./assets/img/lion.jpg" alt="lion">
-      </li>
-      <li>
-        <img src="./assets/img/monkey.jpg" alt="monkey">
-      </li>
-    </ul>
+    <section class="grid-section animals" id="animals">
+      <h1 class="title">Animais Fantásticos</h1>
+      <ul class="animals-list js-tabmenu">
+        <li>
+          <img src="./assets/img/Wolf.jpg" alt="Wolf">
+        </li>
+        <li>
+          <img src="./assets/img/bear.jpg" alt="bear">
+        </li>
+        <li>
+          <img src="./assets/img/squirrel.jpg" alt="squirrel">
+        </li>
+        <li>
+          <img src="./assets/img/fox.jpg" alt="fox">
+        </li>
+        <li>
+          <img src="./assets/img/lion.jpg" alt="lion">
+        </li>
+        <li>
+          <img src="./assets/img/monkey.jpg" alt="monkey">
+        </li>
+      </ul>
 
-    <div class="animals-description js-tabcontent">
-      <section>
-        <h2>Lobo</h2>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit earum assumenda illo alias explicabo iusto
-          non numquam reprehenderit minima ducimus quisquam aliquam, consectetur ratione architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ab, aliquam quae laborum sunt maiores,
-          totam, temporibus inventore alias rerum harum quo nulla minima molestias.</p>
-      </section>
+      <div class="animals-description js-tabcontent">
+        <section data-anime="show-down">
+          <h2>Lobo</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit earum assumenda illo alias explicabo iusto
+            non numquam reprehenderit minima ducimus quisquam aliquam, consectetur ratione architecto.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ab, aliquam quae laborum sunt maiores,
+            totam, temporibus inventore alias rerum harum quo nulla minima molestias.</p>
+        </section>
 
-      <section>
-        <h2>Urso</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque quisquam maiores molestias ab voluptatum
-          sequi veritatis nesciunt molestiae ducimus omnis asperiores ipsam, illo tenetur!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse maxime harum quae, cum eius, quaerat vero
-          possimus odit tenetur, ad modi eaque laborum perferendis quis.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ab, aliquam quae laborum sunt maiores,
-          totam, temporibus inventore alias rerum harum quo nulla minima molestias.</p>
-      </section>
+        <section data-anime="show-right">
+          <h2>Urso</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque quisquam maiores molestias ab voluptatum
+            sequi veritatis nesciunt molestiae ducimus omnis asperiores ipsam, illo tenetur!</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse maxime harum quae, cum eius, quaerat vero
+            possimus odit tenetur, ad modi eaque laborum perferendis quis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ab, aliquam quae laborum sunt maiores,
+            totam, temporibus inventore alias rerum harum quo nulla minima molestias.</p>
+        </section>
 
-      <section>
-        <h2>Esquilo</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque quisquam maiores molestias ab voluptatum
-          sequi veritatis nesciunt molestiae ducimus omnis asperiores ipsam, illo tenetur!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse maxime harum quae, cum eius, quaerat vero
-          possimus odit tenetur, ad modi eaque laborum perferendis quis.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit earum assumenda illo alias explicabo iusto
-          non numquam reprehenderit minima ducimus quisquam aliquam, consectetur ratione architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ab, aliquam quae laborum sunt maiores,
-          totam, temporibus inventore alias rerum harum quo nulla minima molestias.</p>
-      </section>
+        <section data-anime="show-down">
+          <h2>Esquilo</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque quisquam maiores molestias ab voluptatum
+            sequi veritatis nesciunt molestiae ducimus omnis asperiores ipsam, illo tenetur!</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse maxime harum quae, cum eius, quaerat vero
+            possimus odit tenetur, ad modi eaque laborum perferendis quis.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit earum assumenda illo alias explicabo iusto
+            non numquam reprehenderit minima ducimus quisquam aliquam, consectetur ratione architecto.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ab, aliquam quae laborum sunt maiores,
+            totam, temporibus inventore alias rerum harum quo nulla minima molestias.</p>
+        </section>
 
-      <section>
-        <h2>Rapoza</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque quisquam maiores molestias ab voluptatum
-          sequi veritatis nesciunt molestiae ducimus omnis asperiores ipsam, illo tenetur!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse maxime harum quae, cum eius, quaerat vero
-          possimus odit tenetur, ad modi eaque laborum perferendis quis.</p>
-      </section>
+        <section data-anime="show-right">
+          <h2>Rapoza</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque quisquam maiores molestias ab voluptatum
+            sequi veritatis nesciunt molestiae ducimus omnis asperiores ipsam, illo tenetur!</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse maxime harum quae, cum eius, quaerat vero
+            possimus odit tenetur, ad modi eaque laborum perferendis quis.</p>
+        </section>
 
-      <section>
-        <h2>Leão</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque quisquam maiores molestias ab voluptatum
-          sequi veritatis nesciunt molestiae ducimus omnis asperiores ipsam, illo tenetur!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse maxime harum quae, cum eius, quaerat vero
-          possimus odit tenetur, ad modi eaque laborum perferendis quis.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit earum assumenda illo alias explicabo iusto
-          non numquam reprehenderit minima ducimus quisquam aliquam, consectetur ratione architecto.</p>
-      </section>
+        <section data-anime="show-down">
+          <h2>Leão</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque quisquam maiores molestias ab voluptatum
+            sequi veritatis nesciunt molestiae ducimus omnis asperiores ipsam, illo tenetur!</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse maxime harum quae, cum eius, quaerat vero
+            possimus odit tenetur, ad modi eaque laborum perferendis quis.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit earum assumenda illo alias explicabo iusto
+            non numquam reprehenderit minima ducimus quisquam aliquam, consectetur ratione architecto.</p>
+        </section>
 
-      <section>
-        <h2>Macaco</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque quisquam maiores molestias ab voluptatum
-          sequi veritatis nesciunt molestiae ducimus omnis asperiores ipsam, illo tenetur!</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse maxime harum quae, cum eius, quaerat vero
-          possimus odit tenetur, ad modi eaque laborum perferendis quis.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit earum assumenda illo alias explicabo iusto
-          non numquam reprehenderit minima ducimus quisquam aliquam, consectetur ratione architecto.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ab, aliquam quae laborum sunt maiores,
-          totam, temporibus inventore alias rerum harum quo nulla minima molestias.</p>
-      </section>
+        <section data-anime="show-right">
+          <h2>Macaco</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed atque quisquam maiores molestias ab voluptatum
+            sequi veritatis nesciunt molestiae ducimus omnis asperiores ipsam, illo tenetur!</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse maxime harum quae, cum eius, quaerat vero
+            possimus odit tenetur, ad modi eaque laborum perferendis quis.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit earum assumenda illo alias explicabo iusto
+            non numquam reprehenderit minima ducimus quisquam aliquam, consectetur ratione architecto.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat ab, aliquam quae laborum sunt maiores,
+            totam, temporibus inventore alias rerum harum quo nulla minima molestias.</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="grid-section faq js-scroll" id="faq">
+      <h1 class="title">FAQ</h1>
+      <dl class="faq-list js-accordion">
+        <dt>Qual a idade dos animais?</dt>
+        <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </dd>
+
+        <dt>Eles são fantásticos?</dt>
+        <dd>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</dd>
+
+        <dt>Qual a diferença?</dt>
+        <dd>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</dd>
+
+        <dt>Como proteger?</dt>
+        <dd>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</dd>
+      </dl>
+    </section>
+
+    <section class="grid-section contact js-scroll" id="contact">
+      <h1 class="title">Contato</h1>
+      <div class="map">
+        <img src="./assets/img/mapa.png" alt="mapa">
+      </div>
+      <ul class="data">
+        <li>contato@frota.com</li>
+        <li>+55 (11)9999-9999</li>
+        <li>Rua do Conde, nª21</li>
+        <li>São Paulo - SP</li>
+      </ul>
+    </section>
+
+    <footer class="copy">
+      <p>Todos os direitos reservados.<br>
+        <span>Referência: <a href="https://www.origamid.com/" target="_blank">https://www.origamid.com/</a></span>
+      </p>
+    </footer>
+  </div>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" for="email" id="email">
+
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
     </div>
   </section>
 
-  <section class="grid-section faq js-scroll" id="faq">
-    <h1 class="title">FAQ</h1>
-    <dl class="faq-list js-accordion">
-      <dt>Qual a idade dos animais?</dt>
-      <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </dd>
-
-      <dt>Eles são fantásticos?</dt>
-      <dd>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using</dd>
-
-      <dt>Qual a diferença?</dt>
-      <dd>Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</dd>
-
-      <dt>Como proteger?</dt>
-      <dd>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</dd>
-    </dl>
-  </section>
-
-  <section class="grid-section contact js-scroll" id="contact">
-    <h1 class="title">Contato</h1>
-    <div class="map">
-      <img src="./assets/img/mapa.png" alt="mapa">
-    </div>
-    <ul class="data">
-      <li>contato@frota.com</li>
-      <li>+55 (11)9999-9999</li>
-      <li>Rua do Conde, nª21</li>
-      <li>São Paulo - SP</li>
-    </ul>
-  </section>
-
-  <footer class="copy">
-    <p>Todos os direitos reservados.<br>
-      <span>Referência: <a href="https://www.origamid.com/" target="_blank">https://www.origamid.com/</a></span>
-    </p>
-  </footer>
-
-  <script src="./assets/js/script.js"></script>
+  <script type="module" src="./assets/js/script.js"></script>
 
 </body>
 
