@@ -12,7 +12,8 @@
 <body>
   <div class="grid-container">
     <nav class="menu js-menu">
-      <ul>
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" id="menu">
         <li><a href="#animals">Animais</a></li>
         <li data-dropdown>
           <a href="sobre.html">Sobre</a>
@@ -130,6 +131,28 @@
         <dt>Como proteger?</dt>
         <dd>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</dd>
       </dl>
+    </section>
+
+    <section class="grid-section numbers js-scroll">
+      <h1 class="title">Números</h1>
+      <div class="numbers-grid">
+        <div class="number-animal">
+          <h3>Lobos</h3>
+          <span data-number>4874</span>
+        </div>
+        <div class="number-animal">
+          <h3>Raposas</h3>
+          <span data-number>5374</span>
+        </div>
+        <div class="number-animal">
+          <h3>Esquilos</h3>
+          <span data-number>12340</span>
+        </div>
+        <div class="number-animal">
+          <h3>Ursos</h3>
+          <span data-number>230</span>
+        </div>
+      </div>
     </section>
 
     <section class="grid-section contact js-scroll" id="contact">

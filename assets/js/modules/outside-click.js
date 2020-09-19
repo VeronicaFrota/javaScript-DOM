@@ -4,9 +4,9 @@ export default function outsideClick(element, events, callback) {
   const outside = 'data-outside';
 
   if(!element.hasAttribute(outside)) {
-    // Poderá passar mais de um evento direto
+    // Poderá passar mais de um evento direto, adiciona evento ao html
     events.forEach(userEvent => {
-      html.addEventListener(userEvent, handleOutsideClick);   // Adiciona evento ao html
+      setTimeout(() => html.addEventListener(userEvent, handleOutsideClick));   
     });
 
     element.setAttribute(outside, '');
