@@ -6,6 +6,7 @@ import initScrollAnimation from './modules/scroll-animation.js';
 import initDropDownMenu from './modules/dropdown-meu.js';
 import initMenuMobile from './modules/menu-mobile.js';
 import initNumberAnimations from './modules/number-animations.js';
+import initOperation from './modules/operation.js';
 
 initModal();
 initTabNav();
@@ -15,3 +16,4 @@ initScrollAnimation();
 initDropDownMenu();
 initNumberAnimations();
 initMenuMobile();
+initOperation();
